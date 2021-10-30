@@ -4,7 +4,7 @@ Java project that helps in encrypting and decrypting image using AES algorithm
 
 # About the Project
 
-The main use of computer is to store data and send it from one location to other. The information that is shared must be transferred in a secured manner. To ensure secured transmission of information, data is encrypted to unreadable formats by an unauthorized person. To implement this system, we have used encryption algorithm based on AES that encrypted the image into unexpected rough pixel format and generate the key for future decryption.
+The main use of computer is to store data and send it from one location to other. The information that is shared must be transferred in a secured manner. To ensure secured transmission of information, data is encrypted to unreadable formats by an unauthorized person. To implement this system, we have used encryption algorithm based on AES that encrypted the image into unexpected rough pixel format and generate the key for future decryption. The user can decide the value of the key and the key will always be a numerical.
 
 # Explanation of the Algorithm 
 
