@@ -6,6 +6,17 @@ Java project that helps in encrypting and decrypting image using AES algorithm
 
 The main use of computer is to store data and send it from one location to other. The information that is shared must be transferred in a secured manner. To ensure secured transmission of information, data is encrypted to unreadable formats by an unauthorized person. To implement this system, we have used encryption algorithm based on AES that encrypted the image into unexpected rough pixel format and generate the key for future decryption.
 
+# Explanation of the Algorithm 
+
+- First we choose an image to encrypt or decrypt
+- After choosing an image we read the image in bytes
+- This bytes are stored in an Array called Data
+- We convert the bytes using XOR to encrypt
+- We XOR the data with the key that the user inputs
+- And then we store the values in place of the previous value
+- Hence, Our Image gets encrypted 
+- Now to decrypt we use the same key, since the XOR of the stored value with the key will give us back the initial data
+
 # Steps
 
 1. Run the code and you'll be presented with this dialog box, and enter the key value here. Once you enter the key just click on "Open Image"
